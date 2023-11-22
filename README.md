@@ -311,7 +311,7 @@ datasource db {
 -   Create issues and ask questions on [GitHub](https://github.com/prisma/prisma/)
 -   Watch our biweekly "What's new in Prisma" livestreams on [Youtube](https://www.youtube.com/channel/UCptAHlN1gdwD89tFM3ENb6w)
 
-Rename (https://www.prisma.io/docs/guides/migrate/developing-with-prisma-migrate/customizing-migrations)
+Rename [Add by my own](https://www.prisma.io/docs/guides/migrate/developing-with-prisma-migrate/customizing-migrations)
 
 ```bash
 npx prisma migrate dev --name rename-migration --create-only
