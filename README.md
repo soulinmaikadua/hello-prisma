@@ -318,15 +318,9 @@ npx prisma migrate dev --name rename-migration --create-only
 ```
 
 ```bash
-npx prisma migrate dev --name change_hobby_table
-```
-
-```bash
-npx prisma migrate dev --name change_hobby_table --create-only
+npx prisma migrate dev --name change_table --create-only
 ```
 
 ```bash
 npx prisma migrate dev
 ```
-
-npx prisma migrate dev --name change_user_table --create-only
