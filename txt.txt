@@ -1,0 +1,1 @@
+Mac Intel Chip Column count of mysql.proc is wrong. Expected 21, found 20. Create with MariaDB 100108, now running 100428. Please use mysql_upgrade to fix this error
