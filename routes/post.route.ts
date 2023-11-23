@@ -5,7 +5,11 @@ const prisma = new PrismaClient()
 const router = express.Router()
 
 router.get('/', async (req, res) => {
-	const posts = await prisma.post.findMany({})
+	const posts = await prisma.post.findMany({
+		include: {
+			author: true
+		}
+	})
 	res.json(posts)
 })
 router.post('/', async (req, res) => {
